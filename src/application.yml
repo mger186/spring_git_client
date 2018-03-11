@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: pp-git-client
+    
+server:
+   port: 9901
+
+
+endpoints.shutdown.enabled: true    #开启优雅关闭方式
+management.security.enabled: false  #关闭安全认证
